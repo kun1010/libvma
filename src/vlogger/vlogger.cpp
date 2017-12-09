@@ -85,7 +85,7 @@ namespace log_level
 			{VLOG_NONE,    "NONE",    "\e[0;31m" /*Red*/,     (const char ** )log_names_none},
 			{VLOG_PANIC,   "PANIC",   "\e[0;31m" /*Red*/,     (const char ** )log_names_panic},
 			{VLOG_ERROR,   "ERROR",   "\e[0;31m" /*Red*/,     (const char ** )log_names_error},
-			{VLOG_WARNING, "WARNING", "\e[2;35m" /*Magenta*/, (const char ** )log_names_warn},
+			{VLOG_WARNING, "WARNING", "\e[0;31m" /*Magenta*/, (const char ** )log_names_warn},
 			{VLOG_INFO,    "INFO",    "\e[0m"    /*Default*/, (const char ** )log_names_info},
 			{VLOG_DETAILS, "DETAILS", "\e[0m"    /*Default*/, (const char ** )log_names_details},
 			{VLOG_DEBUG,   "DEBUG",   "\e[0m"    /*Default*/, (const char ** )log_names_debug},
